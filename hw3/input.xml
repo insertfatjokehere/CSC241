@@ -1,0 +1,21 @@
+<xml version="1.0" encoding="UTF-8">
+<course number="CSC212">
+	<textbook name="BookFor212"/>
+</course>
+<course number="CSC241">
+        <prereq number="CSC212"/>
+	<textbook name="BookFor241"/>
+	<textbook name="AnotherBookFor241"/>
+</course>
+<course number="CSC455">
+        <prereq number="CSC241"/>
+        <prereq number="CSC365"/>
+	<textbook name="BookFor455"/>
+</course>
+<course number="CSC365">
+        <prereq number="CSC241"/>
+	<textbook name="BookFor365"/>
+	<textbook name="AnotherBookFor365"/>
+	<textbook name="YetAnotherBookFor365"/>
+</course>
+</xml>
